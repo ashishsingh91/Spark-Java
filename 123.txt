@@ -5,3 +5,10 @@ val data = sqlContext.read.json("/user/training/student.json")
 val df= data.registerTempTable("FinalDF")
 
 data.show();
+
+
+------------
+{"age":"24","name":"Ashish"}
+{"age":"26","name":"Vipin"}
+{"age":"29","name":"Kumar"}
+{"age":"40","name":"Vinod"}
